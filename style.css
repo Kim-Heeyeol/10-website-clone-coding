@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    width: 40%;
+    width: 42%;
     height: 100%;
     padding: 50px;
     position: fixed;
@@ -58,10 +58,10 @@ header {
 }
 
 main {
-    height: 5000vh;
+    height: 100vh;
     background-color: #e7473c;
     color: white;
-    margin-left: 40%;
+    margin-left: 42%;
 }
 
 .ranking {
@@ -72,6 +72,8 @@ main {
 
 .movie {
     text-align: center;
+    width: 100%;
+    height: 100%;
 }
 
 .movie_title {
@@ -81,9 +83,17 @@ main {
     margin-bottom: 10px;
 }
 
+.movie_title h2 {
+    font-size: 20px;
+}
+
+.movie_title h3 {
+    font-size: 12px;
+}
+
 .movie iframe {
-    width:100%; 
-    height:100%;
+    width: 100%; 
+    height: 100%;
 }
 
 .movie_title h2, h3 {
